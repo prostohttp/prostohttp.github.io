@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:image" content="path/to/image.jpg">
+    <title>doHoot</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- Chrome, Firefox OS and Opera-->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone-->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container header-container">
+        <div class="row align-items-center header-nav">
+          <div class="col-lg-3 col-3"><a class="logo" href="#"><img src="img/logo.png"></a></div>
+          <div class="col-lg-6 col-sm-9 hidden-mobile">
+            <ul class="nav">
+              <li><a href="#">Reality</a></li>
+              <li><a href="#">Living</a></li>
+              <li><a href="#">EduCation</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Mobility</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 header-left-container hidden-mobile"><span class="search trans"></span><span class="search-container hidden">
+              <input class="search-input" type="text">
+              <button class="search-submit"></button></span><span class="login"><a href="#"><i class="fa fa-user"></i><span>Login</span></a></span></div>
+          <div class="col-lg-9 col-9 desktop-hidden mobile-menu"><a><i class="fa fa-bars"></i></a></div>
+        </div>
+      </div>
+      <div class="mobile-menu-container">
+        <div class="row align-items-center justify-content-center">
+          <div class="close-btn"><i class="fa fa-times-circle"></i></div>
+          <div class="col-md-4 col-sm-6 align-self-center">
+            <ul>
+              <li><span class="search-container mobile-search">
+                  <input class="search-input" type="text" placeholder="Search">
+                  <button class="search-submit"></button></span></li>
+              <li><a class="mobile-login" href="#">Login</a></li>
+              <li><a href="#">Reality</a></li>
+              <li><a href="#">Living</a></li>
+              <li><a href="#">EduCation</a></li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Mobility</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider" style="background:url(../img/header-bg.jpg) top left no-repeat; ;">
+      <div class="row justify-content-md-center align-items-center slider-row">
+        <div class="col-lg-4 col-md-8 col slider-descr">
+          <form class="slider-form">
+            <div class="row">
+              <div class="col rounded">
+                <select class="form-town">
+                  <option value="Dubai">Dubai</option>
+                  <option value="Moscow">Moscow</option>
+                  <option value="Vladivostok">Vladivostok</option>
+                </select>
+              </div>
+              <div class="col rounded">
+                <select class="form-edu" type="text">
+                  <option value="Education">Education</option>
+                  <option value="Job">Job</option>
+                  <option value="Tourism">Tourism</option>
+                </select>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <input class="form-txt" type="text" placeholder="Keyword, name, date, ...">
+            <div class="clearfix"></div>
+            <input class="form-submit" type="submit" value="search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="filter-container">
+      <div class="container">
+        <div class="row align-items-center justify-content-start">
+          <div class="col-lg-4 col-md-6 f-left">
+            <ul class="filter-ul">
+              <li><a class="active-item" href="">recommended</a></li>
+              <li><a href="">latest</a></li>
+              <li><a href="">hightlights</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 f-center">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-6">
+                <div class="rounded">
+                  <select class="form-town">
+                    <option value="Dubai">Dubai</option>
+                    <option value="Moscow">Moscow</option>
+                    <option value="Vladivostok">Vladivostok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="rounded f-map">
+                  <input class="show-map" type="text" placeholder="show map">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 f-right">
+            <div class="row justify-content-end align-items-center"><span>filter:</span>
+              <ul class="icon-ul">
+                <li><a class="f-icon-1" href="#"><img src="../img/icon-filter-1.png" alt="Icon filter"></a></li>
+                <li><a class="f-icon-2" href="#"><img src="../img/icon-filter-2.png" alt="Icon filter"></a></li>
+                <li><a class="f-icon-3" href="#"><img src="../img/icon-filter-3.png" alt="Icon filter"></a></li>
+                <li><a class="f-icon-4" href="#"><img src="../img/icon-filter-4.png" alt="Icon filter"></a></li>
+                <li><a class="f-icon-5" href="#"><img src="../img/icon-filter-5.png" alt="Icon filter"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-1.jpg" title="News 1"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">2 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">Vision Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-2.jpg" title="News 1"></div><span class="el-icon"><img src="../img/icon-news-music.png" title="Music"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">2 Beach party festival 2014</div>
+                <div class="element-bottom">
+                  <div class="sub-title">Long beach</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(1165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-3.jpg" title="News 3"><span class="price">$1,790</span></div><span class="el-icon"><img src="../img/icon-news-bus.png" title="Bus"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">Aliquam quis pulvinar purus</div>
+                <div class="sub-title">bus trans</div>
+                <div class="element-bottom">
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">4 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">reality Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-12 hover-el two-elements">
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-5.jpg" title="News 5">
+                  <div class="img-title"><span class="title-left">Vision agency</span>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+              </div>
+              <div class="descr-wrapper">
+                <div class="autor-photo"><span style="background:url(../img/news-autor-1.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                <div class="title">lucy-p</div>
+                <div class="description">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde facere quia reprehenderit, sed quidem aut error ipsam nam fugit aspernatur necessitatibus sint dignissimos voluptatum sit architecto accusamus, voluptate, eum inventore.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-12 hover-el two-elements">
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-6.jpg" title="News 5">
+                  <div class="img-title"><span class="title-left">skybox club</span>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+              </div>
+              <div class="descr-wrapper">
+                <div class="autor-photo"><span style="background:url(../img/news-autor-2.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                <div class="title">peter145</div>
+                <div class="description">   Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Грамматики семантика по всей языком даже скатился буквоград семь большого журчит осталось заманивший сбить, вопрос ручеек, пустился обеспечивает моей жаренные деревни.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-1.jpg" title="News 1"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">2 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">Vision Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-2.jpg" title="News 1"></div><span class="el-icon"><img src="../img/icon-news-music.png" title="Music"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">2 Beach party festival 2014</div>
+                <div class="element-bottom">
+                  <div class="sub-title">Long beach</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(1165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-3.jpg" title="News 3"><span class="price">$1,790</span></div><span class="el-icon"><img src="../img/icon-news-bus.png" title="Bus"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">Aliquam quis pulvinar purus</div>
+                <div class="sub-title">bus trans</div>
+                <div class="element-bottom">
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">4 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">reality Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-12 hover-el two-elements">
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-6.jpg" title="News 5">
+                  <div class="img-title"><span class="title-left">skybox club</span>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+              </div>
+              <div class="descr-wrapper">
+                <div class="autor-photo"><span style="background:url(../img/news-autor-1.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                <div class="title">peter145</div>
+                <div class="description">   Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Грамматики семантика по всей языком даже скатился буквоград семь большого журчит осталось заманивший сбить, вопрос ручеек, пустился обеспечивает моей жаренные деревни.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">4 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">reality Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+            <div class="four-element">
+              <div class="img-wrapper">
+                <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                <div class="back"><a class="show_more">show more</a>
+                  <div class="rew-comm">
+                    <div class="rating"><img src="../img/stars-white.png"></div>
+                  </div>
+                  <div class="back-bg"></div>
+                </div>
+              </div>
+              <div class="descr-wrapper">
+                <div class="title">4 bedroom house for rent in Dubai</div>
+                <div class="element-bottom">
+                  <div class="sub-title">reality Agency</div>
+                  <div class="reviews">
+                    <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col load-more-container"><a class="load-more" href="#">Load more 	&#8594;</a></div>
+        </div>
+        <div class="hidden-block hidden">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-1.jpg" title="News 1"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">2 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">Vision Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-2.jpg" title="News 1"></div><span class="el-icon"><img src="../img/icon-news-music.png" title="Music"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">2 Beach party festival 2014</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">Long beach</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(1165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-3.jpg" title="News 3"><span class="price">$1,790</span></div><span class="el-icon"><img src="../img/icon-news-bus.png" title="Bus"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">Aliquam quis pulvinar purus</div>
+                  <div class="sub-title">bus trans</div>
+                  <div class="element-bottom">
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">4 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">reality Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 hover-el two-elements">
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-5.jpg" title="News 5">
+                    <div class="img-title"><span class="title-left">Vision agency</span>
+                      <div class="reviews">
+                        <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                      </div>
+                    </div>
+                  </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="autor-photo"><span style="background:url(../img/news-autor-1.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                  <div class="title">lucy-p</div>
+                  <div class="description">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde facere quia reprehenderit, sed quidem aut error ipsam nam fugit aspernatur necessitatibus sint dignissimos voluptatum sit architecto accusamus, voluptate, eum inventore.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 hover-el two-elements">
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-6.jpg" title="News 5">
+                    <div class="img-title"><span class="title-left">skybox club</span>
+                      <div class="reviews">
+                        <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                      </div>
+                    </div>
+                  </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="autor-photo"><span style="background:url(../img/news-autor-2.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                  <div class="title">peter145</div>
+                  <div class="description">   Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Грамматики семантика по всей языком даже скатился буквоград семь большого журчит осталось заманивший сбить, вопрос ручеек, пустился обеспечивает моей жаренные деревни.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-1.jpg" title="News 1"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">2 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">Vision Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-2.jpg" title="News 1"></div><span class="el-icon"><img src="../img/icon-news-music.png" title="Music"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">2 Beach party festival 2014</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">Long beach</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(1165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-3.jpg" title="News 3"><span class="price">$1,790</span></div><span class="el-icon"><img src="../img/icon-news-bus.png" title="Bus"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">Aliquam quis pulvinar purus</div>
+                  <div class="sub-title">bus trans</div>
+                  <div class="element-bottom">
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">4 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">reality Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 hover-el two-elements">
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-6.jpg" title="News 5">
+                    <div class="img-title"><span class="title-left">skybox club</span>
+                      <div class="reviews">
+                        <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(365)</span></div>
+                      </div>
+                    </div>
+                  </div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="autor-photo"><span style="background:url(../img/news-autor-1.jpg) no-repeat;"></span></div><img class="big-rating" src="../img/stars-big.png">
+                  <div class="title">peter145</div>
+                  <div class="description">   Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Грамматики семантика по всей языком даже скатился буквоград семь большого журчит осталось заманивший сбить, вопрос ручеек, пустился обеспечивает моей жаренные деревни.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">4 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">reality Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 hover-el four-elements"> 
+              <div class="four-element">
+                <div class="img-wrapper">
+                  <div class="front"><img src="../img/news-4.jpg" title="News 4"><span class="price">$2,990</span></div><span class="el-icon"><img src="../img/icon-news-home.png" title="Home"></span>
+                  <div class="back"><a class="show_more">show more</a>
+                    <div class="rew-comm">
+                      <div class="rating"><img src="../img/stars-white.png"></div>
+                    </div>
+                    <div class="back-bg"></div>
+                  </div>
+                </div>
+                <div class="descr-wrapper">
+                  <div class="title">4 bedroom house for rent in Dubai</div>
+                  <div class="element-bottom">
+                    <div class="sub-title">reality Agency</div>
+                    <div class="reviews">
+                      <div class="sub-rating" style="background:url(../img/stars-small.png) no-repeat;"><span>(165)</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="heading heading_dark">What can DoHoot offer to you?</h2>
+        <h3 class="sub-heading">Lorem ipsum dolor sit amet.</h3>
+        <div class="row justify-content-center big-icon-container">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="big-icon big-icon_1 trans"></div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="big-icon big-icon_2 trans"></div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="big-icon big-icon_3 trans"></div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="big-icon big-icon_4 trans"></div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="big-icon big-icon_5 trans"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <h2 class="heading green-title">Reality</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-10">
+            <div class="green-icon green-icon_1"></div>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis id esse quas temporibus sequi quis in! Inventore eaque sint distinctio, ullam vero repudiandae obcaecati voluptatem velit hic itaqu. Inventore eaque sint distinctio, ullam vero repudiandae obcaecati voluptatem velit hic itaqu.</p>
+          </div>
+          <div class="col-lg-5 col-md-10">
+            <div class="green-icon green-icon_2"></div>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis id esse quas temporibus sequi quis in! Inventore eaque sint distinctio, ullam vero repudiandae obcaecati voluptatem velit hic itaqu. Inventore eaque sint distinctio, ullam vero repudiandae obcaecati voluptatem velit hic itaqu.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row justify-content-center pre-footer">
+            <div class="col-md-6">
+              <h2 class="heading heading_light">Subscribe to our newsletter</h2>
+              <div class="footer-subscribe">
+                <input class="form-txt" type="text" placeholder="email@google.com">
+                <input class="submit-subscribe" type="submit" value="SUBSCRIBE">
+              </div>
+            </div>
+          </div>
+          <div class="row post-footer">
+            <div class="col-md-4 col-sm-6">
+              <h4 class="footer-title">Ipsum quis</h4>
+              <ul>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">Sit amet</a></li>
+                <li><a href="#">Consectetur adipisicing</a></li>
+                <li><a href="#">Iure officia voluptates</a></li>
+                <li><a href="#">Voluptates iusto</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <h4 class="footer-title">Ipsum quis</h4>
+              <ul>
+                <li><a href="#">ipsum dolor</a></li>
+                <li><a href="#">Sit amet</a></li>
+                <li><a href="#">Consectetur adipisicing</a></li>
+                <li><a href="#">Iure officia voluptates</a></li>
+                <li><a href="#">Voluptates iusto</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <h4 class="footer-title">Follow us</h4>
+              <ul class="footer-social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              </ul>
+              <div class="copy">Copyright &copy; All Rights reserved</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/equalheights.js"></script>
+    <script src="js/custom-min.js"></script>
+  </body>
+</html>
