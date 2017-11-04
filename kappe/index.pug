@@ -1,0 +1,222 @@
+doctype html
+//if lt IE 7
+	html.ie.ie6(lang='en')
+//if IE 7
+	html.ie.ie7(lang='en')
+//if IE 8
+	html.ie.ie8(lang='en')
+// [if (gte IE 9)|!(IE)] <!
+html(lang='ru')
+	// <![endif]
+	head
+		meta(charset='utf-8')
+		title Kappe
+		meta(name='description', content='')
+		link(rel='shortcut icon', href='img/favicon/favicon.ico', type='image/x-icon')
+		link(rel='apple-touch-icon', href='img/favicon/apple-touch-icon.png')
+		link(rel='apple-touch-icon', sizes='72x72', href='img/favicon/apple-touch-icon-72x72.png')
+		link(rel='apple-touch-icon', sizes='114x114', href='img/favicon/apple-touch-icon-114x114.png')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+		//-link(rel='stylesheet', href='libs/bootstrap/css/bootstrap-grid.min.css')
+		link(rel='stylesheet', href='libs/animate/animate.css')
+		link(rel='stylesheet', href='css/fonts.css')
+		link(rel='stylesheet', href='css/font-awesome.min.css')
+		link(rel='stylesheet', href='css/main.css')
+		link(rel='stylesheet', href='css/media.css')
+		script(src='libs/modernizr/modernizr.js')
+	body
+		.sidebar.mobile-hidden
+			.logo-container
+				a.logo(href="#")
+					img.logo-small(src="../img/kappe-logo.png" title="sub logo")
+			.sidebar-container
+				ul.nav
+					- var nav_items = ["Главная", "Наши работы", "Немного о студии", "Последние новости", "Прейскурант услуг", "Контакты для связи"]
+					each item in nav_items
+						li
+							a(href="#")= item
+				.filter-container
+					.filter
+						h2 Фильтр
+						span.filter-icon
+							span.top-left
+							span.top-right
+							span.bottom-left
+							span.bottom-right
+						ul.filter-nav
+							li
+								a.active(href="#" id="all") Все работы
+							li
+								a(href="#" id="web") Веб дизайн
+							li
+								a(href="#" id="illustration") Иллюстрации
+							li
+								a(href="#" id="brochure") Брошуры
+							li
+								a(href="#" id="foto") Фотографии
+							li
+								a(href="#" id="wallpapers") Обои
+
+				.footer
+					ul.social-icons
+						- var social = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']
+						each item in social
+							li
+								a(href="#")
+									img(src=`../img/social_${item}`, alt="")
+							
+
+					span.copyright(href="#") &copy; 2017 Kappe. Все права защищены
+		.content
+			.item(class="brochure" style="background:url(img/img_1.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span брошуры
+						a.p-link(href="#")
+			.item(class="foto" style="background:url(img/img_2.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span фото
+						a.p-link(href="#")
+			.item(class="web foto" style="background:url(img/img_3.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн, фото
+						a.p-link(href="#")
+			.item(class="illustration" style="background:url(img/img_4.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span иллюстрации
+						a.p-link(href="#")
+			.item(class="brochure" style="background:url(img/img_5.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span брошуры
+						a.p-link(href="#")
+			.item(class="web foto" style="background:url(img/img_6.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн, фото
+						a.p-link(href="#")
+			.item(class="foto" style="background:url(img/img_7.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span фото
+						a.p-link(href="#")
+			.item(class="illustration" style="background:url(img/img_8.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span иллюстрации
+						a.p-link(href="#")
+			.item(class="web" style="background:url(img/img_9.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн
+						a.p-link(href="#")
+			.item(class="wallpapers" style="background:url(img/img_10.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span Web
+						a.p-link(href="#")
+			.item(class="wallpapers" style="background:url(img/img_1.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span обои
+						a.p-link(href="#")
+			.item(class="foto" style="background:url(img/img_2.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span фото
+						a.p-link(href="#")
+			.item(class="web" style="background:url(img/img_3.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн
+						a.p-link(href="#")
+			.item(class="illustration" style="background:url(img/img_4.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span иллюстрации
+						a.p-link(href="#")
+			.item(class="wallpapers" style="background:url(img/img_5.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span обои
+						a.p-link(href="#")
+			.item(class="web" style="background:url(img/img_6.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн
+						a.p-link(href="#")
+			.item(class="illustration" style="background:url(img/img_7.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span иллюстрации
+						a.p-link(href="#")
+			.item(class="web" style="background:url(img/img_8.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн
+						a.p-link(href="#")
+			.item(class="foto" style="background:url(img/img_9.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span фото
+						a.p-link(href="#")
+			.item(class="web" style="background:url(img/img_10.jpg)")
+				.overlay
+					.overlay-content
+						p Cool App Design
+						span веб дизайн
+						a.p-link(href="#")
+
+		.contact-container.mobile-hidden
+			.icon-container
+				.icon
+			.contacts
+				ul
+					li
+						i.fa.fa-phone
+						span 9930 1234 5679
+					li
+						i.fa.fa-envelope
+						span contact@domain.com
+					li
+						i.fa.fa-home
+						span street address example
+		.m-menu-icon
+			i.fa.fa-bars
+
+
+
+		//if lt IE 9
+			script(src='libs/html5shiv/es5-shim.min.js')
+			script(src='libs/html5shiv/html5shiv.min.js')
+			script(src='libs/html5shiv/html5shiv-printshiv.min.js')
+			script(src='libs/respond/respond.min.js')
+		script(src='libs/jquery/jquery-1.11.2.min.js')
+		script(src='libs/waypoints/waypoints.min.js')
+		script(src='libs/animate/animate-css.js')
+		script(src='libs/plugins-scroll/plugins-scroll.js')
+		script(src='js/common.js')
+

@@ -1,0 +1,366 @@
+@import "bourbon/bourbon"
+$dark: #252B2E
+$accent: #4CA0A0
+
+html
+	height: 100%
+
+body
+	font-family: "RobotoLight_kappe", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	overflow-x: hidden
+	margin: 0
+
+*::selection
+	background-color: $accent
+	color: #fff
+.hidden
+	display: none
+.fhidden
+	opacity: 0.2 !important
+	filter: blur(2px) grayscale(100%)
+	transition: all .5s
+
+a, .transition
+	transition: all .4s
+ul
+	list-style: none
+	padding: 0
+	margin: 0
+
+.sidebar
+	width: 300px
+	height: 100%
+	min-height: 100vh
+	background-color: $dark
+	padding: 0
+	position: absolute
+	z-index: 10
+	&::after
+		position: absolute
+		content: ''
+		top: 0
+		right: -51px
+		width: 51px
+		height: 100%
+		background: url(../img/shadow.png)
+.mobile-hidden
+	display: block
+.m-menu-icon
+	display: none
+
+.logo-container
+	background-color: #ffffff
+	text-align: center
+	color: $dark
+	padding: 35px 10px 15px
+	.logo
+		font-size: 54px
+		display: block
+		color: $dark
+		text-decoration: none 
+		img
+			display: block
+			margin: 0 auto
+			// height: 15px
+			width: 170px
+			position: relative
+			top: -10px
+.fixed
+	position: fixed
+.sidebar-container
+	text-align: right
+	.nav
+		border-bottom: 1px solid #212426
+		li
+			&:first-child a
+				background: #5fb9ba
+				background: -moz-linear-gradient(top, #5fb9ba 0%, #4ba09f 100%)
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, #5fb9ba), color-stop(100%, #4ba09f))
+				background: -webkit-linear-gradient(top, #5fb9ba 0%, #4ba09f 100%)
+				background: -o-linear-gradient(top, #5fb9ba 0%, #4ba09f 100%)
+				background: -ms-linear-gradient(top, #5fb9ba 0%, #4ba09f 100%)
+				background: linear-gradient(to bottom, #5fb9ba 0%, #4ba09f 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fb9ba', endColorstr='#4ba09f', GradientType=0 )
+			a
+				display: block
+				color: #fff
+				text-decoration: none
+				font-size: 18px
+				text-transform: uppercase
+				padding: 23px 26px
+				border-bottom: 1px solid #2A3034
+				background: #343a3e
+				background: -moz-linear-gradient(top, #343a3e 0%, #2f3539 100%)
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, #343a3e), color-stop(100%, #2f3539))
+				background: -webkit-linear-gradient(top, #343a3e 0%, #2f3539 100%)
+				background: -o-linear-gradient(top, #343a3e 0%, #2f3539 100%)
+				background: -ms-linear-gradient(top, #343a3e 0%, #2f3539 100%)
+				background: linear-gradient(to bottom, #343a3e 0%, #2f3539 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343a3e', endColorstr='#2f3539', GradientType=0 )
+				&:hover
+					background: #5fb9ba
+					background: -moz-linear-gradient(left, #5fb9ba 0%, #4ba09f 100%)
+					background: -webkit-gradient(left top, right top, color-stop(0%, #5fb9ba), color-stop(100%, #4ba09f))
+					background: -webkit-linear-gradient(left, #5fb9ba 0%, #4ba09f 100%)
+					background: -o-linear-gradient(left, #5fb9ba 0%, #4ba09f 100%)
+					background: -ms-linear-gradient(left, #5fb9ba 0%, #4ba09f 100%)
+					background: linear-gradient(to right, #5fb9ba 0%, #4ba09f 100%)
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fb9ba', endColorstr='#4ba09f', GradientType=1 )
+	.filter-container
+		position: relative
+		z-index: 100
+	.filter
+		padding: 0 26px 20px 10px
+		position: relative
+		border-bottom: 1px solid #20282A
+		margin-top: 20px
+		h2
+			font-size: 19px
+			color: $accent
+			margin-right: 30px
+			margin-top: 0
+		&-icon
+			position: absolute
+			width: 19px
+			height: 17px
+			display: inline-block
+			top: 6px
+			right: 26px
+			.top-left, .top-right, .bottom-left, .bottom-right
+				position: absolute
+				width: 9px
+				height: 8px
+				background-color: $accent
+				border-radius: 2px
+			.top-left
+				top: 0
+				right: 0
+			.top-right
+				top: 0
+				right: 10px
+			.bottom-left
+				bottom: 0
+				right: 10px
+			.bottom-right
+				bottom: 0
+				right: 0
+
+@keyframes topleft
+	0%
+		background-color: $accent
+	10%
+		background-color: #E0E0E0
+	85%
+		background-color: #E0E0E0
+	100%
+		background-color: $accent
+
+@keyframes topright
+	0%
+		background-color: $accent
+	40%
+		background-color: #E0E0E0
+	75%
+		background-color: #E0E0E0
+	100%
+		background-color: $accent
+
+@keyframes bottomleft
+	0%
+		background-color: $accent
+	45%
+		background-color: #E0E0E0
+	65%
+		background-color: #E0E0E0
+	100%
+		background-color: $accent
+
+@keyframes bottomright
+	0%
+		background-color: $accent
+	30%
+		background-color: #E0E0E0
+	55%
+		background-color: #E0E0E0
+	100%
+		background-color: $accent
+
+.top-right
+	animation: topleft 3s infinite alternate
+
+.sidebar:hover
+	.top-left
+		animation: topleft 6s infinite alternate
+	.top-right
+		animation: topright 6s infinite alternate
+	.bottom-left
+		animation: bottomleft 6s infinite alternate
+	.bottom-right
+		animation: bottomright 6s infinite alternate
+
+.filter-nav
+	.active
+		color: #fff
+	a
+		font-size: 13px
+		color: #6b7072
+		text-decoration: none
+		&:hover
+			color: #fff
+
+.footer
+	padding: 20px 26px 20px 10px
+	color: #6b7072
+	position: absolute
+	bottom: 20px
+	right: 0
+	a
+		color: #6b7072
+		text-decoration: none
+	.social-icons
+		margin-bottom: 15px
+		li
+			display: inline-block
+			margin-left: 6px
+		img
+			width: 25px
+			height: 25px
+
+.content
+	display: flex
+	margin-left: 290px
+	z-index: 1
+	flex-wrap: wrap
+	.item
+		width: 25%
+		height: 320px
+		background-color: #ccc
+		background-size: cover !important
+		opacity: 1
+		position: relative
+		.overlay
+			position: absolute
+			width: 100%
+			height: 100%
+			background-color: rgba(76, 160, 160, 0.95)
+			color: #fff
+			opacity: 0
+			transition: all .4s
+			.overlay-content
+				position: relative
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+				text-align: center
+			p
+				margin: 0
+				font-size: 24px
+			span
+				font-size: 13px
+				padding-bottom: 10px
+				border-bottom: 2px solid #fff
+			.p-link
+				display: block
+				margin: 20px auto 0 auto
+				width: 65px
+				height: 65px
+				background-color: transparent
+				border: 1px solid  #fff
+				border-radius: 50%
+				position: relative
+				&:hover
+					background-color: rgba(255, 255, 255, 0.2)
+				&::after
+					font-family: FontAwesome
+					content: "\f061"
+					position: absolute
+					color: #fff
+					font-size: 22px
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					z-index: 10
+			&:hover
+				opacity: 1
+	.item.fhidden:hover
+		.overlay
+			opacity: 0
+.fixed-filter
+	position: fixed !important
+	top: 0
+	left: 170px
+	z-index: 10
+	border-bottom: none !important
+
+.contact-container
+	position: fixed
+	top: 0
+	right: 0
+	.icon-container
+		width: 90px
+		height: 90px
+		background-color: $accent
+		position: absolute
+		right: 0
+		top: 0
+		z-index: 10
+		opacity: 1
+		transition: all .4s
+		&:hover
+			cursor: pointer
+			opacity: .9
+		.icon
+			position: relative
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+			border: 1px solid  #fff
+			border-radius: 50%
+			width: 63px
+			height: 63px
+			z-index: 1
+			&::before
+				content: "\f05a"
+				position: absolute
+				font-family: FontAwesome
+				font-size: 30px
+				color: #fff
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%)
+				z-index: 1
+	.contacts
+		background-color: rgba(0, 0, 0, 0.8)
+		color: #fff
+		padding: 25px 20px
+		width: 260px
+		position: relative	
+		top: 90px	
+		display: none
+		li
+			margin-bottom: 4px
+		i
+			width: 25px
+			font-size: 20px
+			margin-right: 7px
+		span
+			font-size: 15px
+
+
+
+
+
+
+
+
+					
+
+
+
+
+

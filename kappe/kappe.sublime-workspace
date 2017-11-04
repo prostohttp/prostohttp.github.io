@@ -1,0 +1,501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flexdir\tFlexbox - flex-direction: row;"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"re",
+				"relative\t(main.sass)"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"rea",
+				"ready\tdocument.ready - $(function(){})"
+			],
+			[
+				"vklad",
+				"vkladSrok"
+			],
+			[
+				"alert",
+				"alert〔function〕"
+			],
+			[
+				"sum-",
+				"sum-vklad\t(vklad.html)"
+			],
+			[
+				"pla",
+				"platej"
+			],
+			[
+				"read",
+				"ready\tdocument.ready - $(function(){})"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/var/www/vhosts/ars-souz1.host4g.ru/ars-souz.ru/libraries/pattemplate/patTemplate/Dump \n/var/www/vhosts/ars-souz1.host4g.ru/ars-souz.ru/modules/mod_vvisit_counter/includes \n/var/www/vhosts/ars-souz1.host4g.ru/ars-souz.ru/templates/atomic/html/mod_search",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix",
+				"name": "/var/www/vhosts/ars-souz1.host4g.ru/ars-souz.ru/li"
+			}
+		},
+		{
+			"file": "/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/txt/Сайты по месяцам.txt",
+			"settings":
+			{
+				"buffer_size": 10466,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/demo/sait-market-demo-adama.txt",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "база данных"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 209.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pro",
+				"Project Manager: Open Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"termina",
+				"Terminal: Open"
+			],
+			[
+				"termin",
+				"Terminal: Open"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"syntax: html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe"
+	],
+	"file_history":
+	[
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/log.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/.htaccess 2",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/Dump.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/install.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/popup-pomo.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/db.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/index.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/hlvxfoxe.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/default.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/.htaccess",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/modules.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/vhzcqmnw.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/browsers.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/article47.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-3/.htaccess.MOOVED_BY_RSNX_MALWARE_BLOCKER",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/sass/main.sass",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/js/custom.js",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/index.pug",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/index.html",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/sass/media.sass",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/app/index.html",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/app/sass/main.sass",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/index.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/vhzcqmnw.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/db.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/index 2.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/index.html.bak.bak",
+		"/Users/mikelecorleone/Desktop/temp/verstka/kappe/app/css/main.min.css",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/index.pug",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/sass/main.sass",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/js/custom.js",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/index.html",
+		"/Users/mikelecorleone/Desktop/stylesheet.css",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/sass/media.sass",
+		"/Users/mikelecorleone/Downloads/big-icon-2.svg",
+		"/Users/mikelecorleone/Desktop/optimizedhtml-start-template-master/app/index.html",
+		"/Users/mikelecorleone/Desktop/optimizedhtml-start-template-master/app/ht.access",
+		"/Users/mikelecorleone/Desktop/temp/verstka/dohoot/config.codekit",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/txt/Сайты по месяцам.txt",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/txt/работа общая.txt",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/demo/sait-market-demo-medicallink.txt",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/ars-souz.ru.txt",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/mrt-lider.ru.txt",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/demo/sait-market-demo-monex.txt",
+		"/Users/mikelecorleone/Desktop/gulp_1/gulpfile.js",
+		"/Users/mikelecorleone/Downloads/индекс.txt",
+		"/Users/mikelecorleone/Desktop/calculator/script.js",
+		"/Users/mikelecorleone/Desktop/calculator/style.css",
+		"/Users/mikelecorleone/Desktop/calculator/vklad.html",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/header.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/pickup.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/footer.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/functions.php",
+		"/Users/mikelecorleone/Desktop/Iyul/july 2017 part 5.txt",
+		"/Users/mikelecorleone/Desktop/Iyul/july 2017 part 4.txt",
+		"/Users/mikelecorleone/Desktop/Iyul/july 2017 part 3.txt",
+		"/Users/mikelecorleone/Desktop/Iyul/july 2017 part 2.txt",
+		"/Users/mikelecorleone/Desktop/Iyul/july 2017 part 1.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/pre-footer.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/header-1.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/footer-1.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/custom-header.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/titlebar.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/bestseller.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/latest.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/custom.js",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/stylesheet_white.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/banner.tpl",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/carousel.tpl",
+		"/Users/mikelecorleone/Downloads/Zamena.txt",
+		"/Users/mikelecorleone/Desktop/1.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/config.php",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/holderaks.ru.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/breadcrumb.php",
+		"/Users/mikelecorleone/Desktop/Временное/monex-11/monex/inc/titlebar.php",
+		"/Users/mikelecorleone/Desktop/Временное/monex-11/monex/inc/header/header-1.php",
+		"/Users/mikelecorleone/Desktop/Временное/monex-11/monex/inc/hooks.php",
+		"/Users/mikelecorleone/Desktop/Временное/monex-11/monex/index.php",
+		"/Applications/MAMP/htdocs/theark.loc/wp-config.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 16.css",
+		"/Users/mikelecorleone/Desktop/Объявления/объявления.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/navigation.js",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/theme.js",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 13.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 14.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 15.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 12.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 11.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 7.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 8.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 9.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 10.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 6.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 2.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 5.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 3.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/style 4.css",
+		"/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/primorskayderevnyru.ru.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/wp-config.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/cart 2.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/cart.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/header 2.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/footer.tpl",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/common.js",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/product.tpl",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/addonScript.js",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/main.css",
+		"/Users/mikelecorleone/Desktop/php-oop.txt",
+		"/Users/mikelecorleone/Documents/test1/test1.html",
+		"/Users/mikelecorleone/Desktop/Объявления/php-oop.txt",
+		"/Users/mikelecorleone/Library/Application Support/Feral Interactive/Mafia II/Preferences Data",
+		"/Applications/Mafia 2/Mafia2Data/edit/sdsconfig.bin",
+		"/Users/mikelecorleone/Desktop/Новая папка/объявления.txt",
+		"/Users/mikelecorleone/Desktop/yandex_yml_1.8.5-oc2.0.x-2.2.x/readme.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/.htaccess",
+		"/Users/mikelecorleone/Desktop/yandex-money-cms-opencart2-master/FAQ.md",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/config 2.php",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/footer2.tpl",
+		"/Users/mikelecorleone/Downloads/Благо.txt",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/header.tpl",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/stylesheet.css",
+		"/private/var/folders/69/4k8nl8s11ss37z55z0j8dqdr0000gn/T/fz3temp-2/ns_common.js",
+		"/Applications/The Witcher.app/Contents/Resources/game/Resources/System/restype.ini",
+		"/Applications/The Witcher.app/Contents/Resources/game/Resources/System/witcher.ini",
+		"/Users/mikelecorleone/Desktop/untitled.css",
+		"/Users/mikelecorleone/Desktop/Iyun/june 2017 part 5.txt",
+		"/Users/mikelecorleone/Desktop/Iyun/june 2017 part 4.txt"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "/var/www/vhosts/ars-souz1.host4g.ru/ars-souz.ru/li",
+							"bs_sintax": "plain text",
+							"encoding_helper_encoding": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/txt/Сайты по месяцам.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10418,
+								10418
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "89a05863",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6426.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/mikelecorleone/Yandex.Disk.localized/BACKUP JOB/Работа/demo/sait-market-demo-adama.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "база данных",
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "a337f217",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"spell_check": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kappe.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
